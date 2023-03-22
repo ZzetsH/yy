@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulier</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form
+      action="mailto:zabdela@handelsschoolaalst.be" class="toggle"
+    >
+      <fieldset>
+        <legend>Formulier</legend>
+        <label for="Naam">Naam: </label>
+        <input type="text" name="Naam"  class="txtmarign" style="margin-left: 50px;"/> <br />
+        <br />
+        <label for="Adress">Adress: </label>
+        <input type="text" name="Adress" class="txtmarign" style="margin-left: 48px;"/> <br />
+        <br />
+        <label for="Postcode">Postcode: </label>
+        <input type="number" name="Postcode" id="pcode" /> <br />
+        <br />
+        <label for="woonplaats">Woonplaats: </label>
+        <input type="text" name="woonplaats" /> <br />
+        <br /> 
+        <label for="email">Emailadres: </label>
+        <input type="email" name="email" /> <br />
+        <br />
+        <label for="">Wil je een weeklijke offerte per email ontvangen? </label> <br> <br>
+        <input type="radio" id="choice1" name="choice" value="creative">
+        
+              <label for="choice1">Ja</label>
+  
+              <input type="radio" id="choice2" name="choice" value="productive">
+              <label for="choice2">Neen</label>
+  
+              <div id="flap"><span class="content">zabdela</span></div>
+        <br />
+        <label for="opmerking">Opmerkingen: </label> <br />
+        <textarea
+          name="opmerking"
+          id="opmerking"
+          cols="62"
+          rows="10"
+        ></textarea>
+        <br> <br>
+        <input type="submit" value="Verzend" />
+      </fieldset>
+    </form>
+  </body>
+</html>
